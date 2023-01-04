@@ -37,7 +37,7 @@ Resources:
             #! /bin/bash
             yum update -y
             yum install httpd -y
-            FOLDER="https://raw.githubusercontent.com/T01-2126-John/Project-101-kittens/main/static-web"
+            FOLDER="https://raw.githubusercontent.com/T01-2126-John/project-101-kittens/main/static-web"
             cd /var/www/html
             wget $FOLDER/index.html
             wget $FOLDER/cat0.jpg
