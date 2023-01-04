@@ -26,7 +26,7 @@ Resources:
             systemctl enable httpd /var/www/html/index.html
       SecurityGroups:
         - !Ref MySecGr
-      KeyName: adam-nv
+      KeyName: first-key
 
   MySecGr:
     Type: AWS::EC2::SecurityGroup
